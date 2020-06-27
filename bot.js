@@ -46,7 +46,14 @@ bot.once('spawn', () => {
       bot.on("end", () => {
         console.log("Disconnected from server, waiting to reconnect")
         setTimeout(function() {
-            bot.connect()
+            bot = mineflayer.createBot({
+                host: config.host,
+                port: config.port,
+                username: config.userEmail,
+                password: config.userPassword,
+                version: false, // Auto-version
+                viewDistance: config.renderDistance
+              });
         }, 4 * 60 * 1000);
       });
 
