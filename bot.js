@@ -43,6 +43,13 @@ bot.once('spawn', () => {
         }
       });
       
+      bot.on("end", () => {
+        console.log("Disconnected from server, waiting to reconnect")
+        setTimeout(function() {
+            bot.connect()
+        }, 4 * 60 * 1000);
+      });
+
       bot.on("error", (err) => console.log(err));
 });
 
