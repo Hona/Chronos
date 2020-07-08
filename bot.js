@@ -41,6 +41,9 @@ function handleChat(username, message) {
         case "ping":
           bot.chat("Pong!");
           break;
+        case "exec":
+          bot.chat(args);
+          break;
       }
     }
   }
