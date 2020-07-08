@@ -38,6 +38,9 @@ function handleChat(username, message) {
           bot.navigate.stop();
           console.log("Stopped all actions");
           break;
+        case "ping":
+          bot.chat("Pong!");
+          break;
       }
     }
   }
