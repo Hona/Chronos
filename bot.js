@@ -47,6 +47,9 @@ function handleChat(username, message) {
         case "sethome":
           bot.chat("/sethome");
           break;
+        case "home":
+          bot.chat("/home")
+          break;
       }
     }
   }
