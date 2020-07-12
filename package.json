@@ -1,0 +1,23 @@
+{
+  "name": "chronos",
+  "version": "1.0.0",
+  "description": "Personal Minecraft bot, primarily for AFKing.",
+  "main": "bot.js",
+  "dependencies": {
+    "mineflayer": "^2.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealHona/Chronos.git"
+  },
+  "author": "Luke Parker",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/TheRealHona/Chronos/issues"
+  },
+  "homepage": "https://github.com/TheRealHona/Chronos#readme"
+}
