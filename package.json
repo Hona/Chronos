@@ -4,7 +4,7 @@
   "description": "Personal Minecraft bot, primarily for AFKing.",
   "main": "bot.js",
   "dependencies": {
-    "mineflayer": "^2.23.0"
+    "mineflayer": "^2.28.1"
   },
   "devDependencies": {},
   "scripts": {
